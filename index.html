@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2e995ab47f.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <!-- <img src="images/logo.png" class="logo"> -->
+                <h1 class="logo"><span>J</span>eevan</h1>
+                <ul id="sidemenu"> 
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <span>Jeevan</span><br>Panwar From India</h1>
+            </div>
+        </div>
+    </div>
+
+    <!-----------About section Start-------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/jeevan.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <h3 class="sub-title-2">Developer <span>& Designer</span></h3>
+                    <p class="sub-title-3">I am a front-end web developer. I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.I can provide clean code and pixel perfect design. I also make the website more & more interactive with web animations.A responsive design makes your website accessible to all users, regardless of their device.and I am a smart and hard worker Thank You.</p>
+
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('eduction')">Eduction</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Disigning Web interfaces</li>
+                            <li><span>Web Development</span><br>Web Development</li>
+                            <li><span>Data Entry</span><br>All type Data entry</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2020-2022</span><br>Online Shop & CSC Center</li>
+                            <li><span>2018-2020</span><br>Information Tachnology</li>
+                            <li><span>2020-2021</span><br>Airtel</li>
+                            <li><span>August-2022-Running</span><br>Newton School Ful Stack Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="eduction">
+                        <ul>
+                            <li><span>2021</span><br>12th Math-Physics-Chemestry</li>
+                            <li><span>2018-2020</span><br>Information Tachnology</li>
+                            <li><span>2021-2022</span><br>Diploma in Computer Application</li>
+                            <li><span>August-2022-Running</span><br>Newton School Ful Stack Development</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-- ---------Services--------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Portfolio website | Event website | Personal website | E-Commerce website | Business website | Blog website | Membership website | Informational website |</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-pen-nib"></i>
+                    <h2>Web Design</h2>
+                    <p>We develop a beautiful and good website design on our own. front-end development.</p>
+                    <a href="#">Learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-keyboard"></i>
+                    <h2>Data Entry</h2>
+                    <p>We also do data entry work. If you want to get any kind of data entry done then in contact. We work from home. Contact Me-7509031232</p>
+                    <a href="#">Learn more</a>
+                </div>
+            </div>
+        </div>
+     </div>
+
+<!-- ----------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/school.jpg">
+                    <div class="layer">
+                        <h3>School Website</h3>
+                        <p>The Webiste is the responsive and good disign. made by me.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/web.jpg">
+                    <div class="layer">
+                        <h3>Portfolio Website</h3>
+                        <p>The Webiste is the responsive and good disign. made by me.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/university.jpg">
+                    <div class="layer">
+                        <h3>University Website</h3>
+                        <p>The Webiste is the responsive and good disign. made by me.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="btn">See more</a>
+        </div>
+    </div> 
+
+
+
+<!------------------contact----------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>panwarjeewan392@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>+917509031232</p>
+                <div class="social-icon">
+                    <a href="https://www.facebook.com/jeewan.panwar.92"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/jeevanpanwar75/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/jeevan-panwar-95440b246/"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Jeevan. Made with <i class="fa-solid fa-heart"></i> by Jeevan Panwar </p>
+    </div>
+</div>
+
+
+  <script src="javascript"></script>
+</body>
+</html>
